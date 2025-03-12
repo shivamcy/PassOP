@@ -6,8 +6,6 @@ const { MongoClient } = require('mongodb');
 const bodyparser=require('body-parser')
 const cors=require('cors')
 dotenv.config()
-// or as an es module:
-// import { MongoClient } from 'mongodb'
 
 // Connection URL
 const url = 'mongodb://localhost:27017';
